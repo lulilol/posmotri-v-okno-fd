@@ -86,7 +86,8 @@ ol {
 }
 
 .result__video-container {
-  margin-bottom: 16px;
+  width: 711px;
+  margin-bottom: 15px;
   position: relative;
 }
 
