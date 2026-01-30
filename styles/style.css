@@ -19,7 +19,6 @@ html {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: auto;
 }
 
 h1,
@@ -160,6 +159,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__video-card-title {
@@ -291,7 +291,7 @@ ol {
   text-align: center;
   background-color: transparent;
   color: #fff;
-  padding-top: 6px; 
+  padding-top: 6px;
   cursor: pointer
 }
 
@@ -321,10 +321,6 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid white;
-}
-
-.content__card-link {
-  display: block;
 }
 
 .content__card-link_current {
